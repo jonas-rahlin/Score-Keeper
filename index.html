@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="main">
+      <div id="image">
+        <img src="https://res.cloudinary.com/dwh6m5mbn/image/upload/c_lfill,w_830/v1533211436/News/General/Ping_Pong.jpg" alt="">
+      </div>
+      <div id="title">
+        <h1>Ping Pong Score Keeper</h1>
+      </div>
+      <div id="score">
+        <span id="score-display">
+          <span id="score-display-a" class="score-display-show">0</span>
+          <span class="score-display-show">-</span>
+          <span id="score-display-b" class="score-display-show">0</span>
+        </span>
+        <p id="score-instructions">Use the buttons below to keep score.</p>
+        <span id="score-set">
+          <label for="score-set-qty">Playing to:</label>
+          <select id="score-set-qty" name="score-set-qty">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+          </select>
+        </span>
+      </div>
+      <div id="buttons">
+        <button id="button-a">+1 Player One</button>
+        <button id="button-b">+1 Player Two</button>
+        <button id="button-c">Reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+

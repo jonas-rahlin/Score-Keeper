@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+#main{
+    margin:auto;
+    height:500px;
+    width:500px;
+}
+
+#image{
+    width:100%;
+}
+
+#image img{
+    width:100%;
+}
+
+#title{
+    width:100%;
+    font-size:10px;
+    text-decoration: underline;
+}
+
+#score{
+    width:100%;
+}
+
+#score-display{
+}
+
+.score-display-show{
+    font-size:45px;
+    font-weight: 600;
+}
+
+#buttons{
+    width:100%;
+}
+
+#button-a{
+    background:rgb(103, 228, 103);
+}
+
+#button-b{
+    background:rgb(101, 192, 235);
+}
+
+#button-c{
+    background-color: rgb(238, 110, 121);
+}
+
+
+
+/* WINNER / LOOSER */
+
+.winner{
+    color:green;
+}
+
+.loser{
+    color:red;
+}
